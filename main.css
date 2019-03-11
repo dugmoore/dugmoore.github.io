@@ -19,16 +19,14 @@ ul{
     flow-direction: row;
     justify-content: space-around;
     width:100%;
-]
-
 }
 li{
     display: flex;
     list-style: none;
-    justify-content: space-between;
     padding-right: 70px;
     font-size: 1.5rem;
     text-decoration: none;
+    justify-content: space-between;
 }
 a{
     color:white;
@@ -78,6 +76,10 @@ a{
         display: inline;
 }
 #footer{
+    display: flex;
+    flow-direction: row;
+    align-content: center;
+    
     background-color: black;
     height: 2.2rem;
     bottom: 0;
@@ -86,3 +88,13 @@ a{
     color: white;
     padding-top: 1rem;
 }
+.badge{
+    position: left;
+    text-align: left;
+    padding: 0 20px 0px 20px;
+}
+#headline{
+    padding-top: 10px;
+    color: black;
+}
+    
