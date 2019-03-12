@@ -49,7 +49,7 @@ a{
     font-size: 2rem;
 }
 #projects{
-    width: 100%;
+    display: flex;
     padding-top:2.2rem;
     padding-bottom: 2.2rem;
     background-color: white;
