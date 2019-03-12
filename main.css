@@ -48,7 +48,7 @@ a{
     font-size: 2rem;
 }
 #projects{
-    width: 100%;
+    width: 100vw;
     padding-top:2.2rem;
     padding-bottom: 2.2rem;
     background-color: white;
