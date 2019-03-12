@@ -35,6 +35,7 @@ a{
     
 }
 #welcome-section{
+    width: 100vw;
     height: 100vh;
     padding-top: 35px;
     width: 100%;
