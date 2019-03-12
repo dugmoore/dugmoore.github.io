@@ -36,6 +36,7 @@ a{
 #welcome-section{
     height: 100vh;
     padding-top: 35px;
+    width: 100%;
 }
 #banner{
     padding: 35vh;
