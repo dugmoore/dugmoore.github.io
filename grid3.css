@@ -68,15 +68,17 @@ a{
     margin: 40px 100px;
 }
 .image{
+    margin: 0;
     position: relative;
     display: inline-block;
 }
 .image .top {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 50;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
 }
 .image:hover .top {
         display: inline;
