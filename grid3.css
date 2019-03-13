@@ -5,15 +5,20 @@ body{
     margin: 0px;
 }
 .welcome{
-    grid-area: main;
+    grid-area: welcome;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     height: 100vh;
+}
+.projects{
+    padding-top:2.2rem;
+    padding-bottom: 2.2rem;
+    background-color: white;
 }
 .container{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
-    "main main main main main main"
-    "content content content content content content"; 
+    "welcome welcome welcome welcome welcome welcome"
+    "projects projects projects projects projects projects"; 
 }
