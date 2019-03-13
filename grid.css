@@ -18,7 +18,11 @@ body{
     grid-area: content;
     justify-content: center;
     padding-bottom: 60px;
-    display: inline;
+    display: box;
+    padding-top:2.2rem;
+    padding-bottom: 2.2rem;
+    background-color: red;
+    width: 100%;
 }
 .container{
     display: grid;
@@ -61,12 +65,7 @@ a{
     font-size: 2rem;
 }
 --------------------------------
-#projects{
-    width: 100%;
-    padding-top:2.2rem;
-    padding-bottom: 2.2rem;
-    background-color: white;
-}
+
 .project-tile{
     text-decoration: none;
     color: #000000;
