@@ -55,4 +55,11 @@ li{
 a{
     color:white;
     text-decoration: none;
+}.banner{
+    padding: 35vh;
+    height: 33%;
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
 }
