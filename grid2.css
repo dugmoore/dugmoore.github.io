@@ -4,8 +4,8 @@ html{
 body{
     margin: 0px;
 }
-.item-a {
-    grid-area: main;
+.welcome {
+    grid-area: welcome;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     height: 100vh;
     
@@ -14,14 +14,13 @@ body{
     grid-area: rightside;;
     background:black;
 }
-.item-c {
+.content {
     grid-area: content;
     justify-content: center;
     padding-bottom: 60px;
     display: box;
     padding-top:2.2rem;
     padding-bottom: 2.2rem;
-    background-color: red;
     width: 100%;
 }
 .container{
@@ -29,7 +28,7 @@ body{
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
-    "main main main main main main"
+    "welcome welcome welcome welcome welcome welcome"
     "content content content content content content"; 
 }
 header{
