@@ -33,7 +33,7 @@ a{
     
 }
 .banner{
-    padding: 35vh;
+    padding: 5vh;
     height: 33%;
     width: 33%;
     text-align: center;
@@ -41,7 +41,6 @@ a{
     margin: auto;
 }
 .welcome{
-    margin: auto;
     grid-area: welcome;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     height: 100vh;
