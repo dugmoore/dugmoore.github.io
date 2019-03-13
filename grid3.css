@@ -4,30 +4,6 @@ html{
 body{
     margin: 0px;
 }
-header{
-    width: 100%;
-    background: black;
-    color: white;
-    top:0;
-    position: fixed;
-    z-index: 100;
-}
-ul{
-    display:flex;
-    justify-content: space-around;
-}
-li{
-    display: flex;
-    list-style: none;
-    padding-right: 70px;
-    font-size: 1.5rem;
-    text-decoration: none;
-    justify-content: space-between;
-}
-a{
-    color:white;
-    text-decoration: none;
-}
 .welcome{
     grid-area: main;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
@@ -40,12 +16,4 @@ a{
     grid-template-areas:
     "main main main main main main"
     "content content content content content content"; 
-}
-.banner{
-    padding: 35vh;
-    height: 33%;
-    width: 33%;
-    margin: auto;
-    text-align: center;
-    font-size: 2rem;
 }
