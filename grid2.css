@@ -1,0 +1,34 @@
+html{
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+.item-a {
+    grid-area: main;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    height: 100vh;
+    
+}
+.item-b{
+    grid-area: rightside;;
+    background:black;
+}
+.item-c {
+    grid-area: content;
+    justify-content: center;
+    padding-bottom: 60px;
+    display: box;
+    padding-top:2.2rem;
+    padding-bottom: 2.2rem;
+    background-color: red;
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "main main main main main main"
+    "content content content content content content"; 
+}
