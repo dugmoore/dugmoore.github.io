@@ -32,11 +32,6 @@ a{
     text-decoration: none;
     
 }
-#welcome-section{
-    height: 100vh;
-    padding-top: 35px;
-    display: block;
-}
 #banner{
     padding: 35vh;
     height: 33%;
@@ -49,6 +44,7 @@ a{
     grid-area: welcome;
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     height: 100vh;
+    padding-top:35vh;
 }
 .projects{
     padding-top:2.2rem;
