@@ -21,7 +21,7 @@ body{
     display: inline-flex;
     padding-top:2.2rem;
     width: 100%;
-    background-color: red;
+    background-color: blue;
 }
 .container{
     display: grid;
