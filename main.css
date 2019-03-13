@@ -33,7 +33,7 @@ a{
     
 }
 .banner{
-    color: blue;
+    color: green;
     padding-top: 30vh;
     height: 33%;
     width: 33%;
@@ -100,7 +100,7 @@ a{
     padding-top: 1rem;
 }
 #html{
-    margin: 40px;
+    margin-top: 40px;
 }
 .container{
     display: grid;
