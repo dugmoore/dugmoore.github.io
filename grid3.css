@@ -28,6 +28,19 @@ a{
     color:white;
     text-decoration: none;
 }
+.welcome{
+    grid-area: main;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "main main main main main main"
+    "content content content content content content"; 
+}
 .banner{
     padding: 35vh;
     height: 33%;
@@ -35,18 +48,4 @@ a{
     margin: auto;
     text-align: center;
     font-size: 2rem;
-}
-.welcome{
-    grid-area: main;
-    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-    height: 100vh;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-    "main main main main main main"
-    "content content content content content content content"; 
 }
