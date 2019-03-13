@@ -59,3 +59,11 @@ a{
     "welcome welcome welcome welcome welcome welcome"
     "projects projects projects projects projects projects"; 
 }
+.headline{
+    padding: 35vh;
+    height: 33%;
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
