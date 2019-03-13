@@ -1,0 +1,108 @@
+html{
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+.item-a {
+    grid-area: main;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    height: 100vh;
+    
+}
+.item-b{
+    grid-area: rightside;;
+    background:black;
+}
+.item-c {
+    grid-area: content;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "main main main main main main"
+    "content content content content content content"; 
+}
+header{
+    width: 100%;
+    background: black;
+    color: white;
+    top:0;
+    position: fixed;
+    z-index: 100;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+}
+li{
+    display: flex;
+    list-style: none;
+    padding-right: 70px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    justify-content: space-between;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.banner{
+    padding: 35vh;
+    height: 33%;
+    width: 33%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+--------------------------------
+#projects{
+    
+    padding-top:2.2rem;
+    padding-bottom: 2.2rem;
+    background-color: white;
+}
+.project-tile{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    overflow: hidden;
+    border: 2px solid black;
+    height: 240px;
+    width: 280px;
+    margin: 40px 100px;
+}
+.image{
+    position: relative;
+    display: inline-block;
+}
+.image .top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 50;
+}
+.image:hover .top {
+
+        display: inline;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 2.2rem;
+    bottom: 0;
+    position: fixed;
+    z-index: 100;
+    width:100%;
+    color: white;
+    padding-top: 1rem;
+}
+
+
+    
