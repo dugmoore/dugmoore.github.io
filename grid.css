@@ -18,9 +18,10 @@ body{
     grid-area: content;
     justify-content: center;
     padding-bottom: 60px;
-    display: box;
+    display: inline-flex;
     padding-top:2.2rem;
     width: 100%;
+    background-color: red;
 }
 .container{
     display: grid;
