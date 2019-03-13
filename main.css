@@ -33,7 +33,7 @@ a{
     
 }
 .banner{
-    color: white;
+    color: blue;
     padding-top: 30vh;
     height: 33%;
     width: 33%;
@@ -99,7 +99,9 @@ a{
     color: white;
     padding-top: 1rem;
 }
-
+#html{
+    margin: 40px;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
