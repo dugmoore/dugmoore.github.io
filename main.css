@@ -99,6 +99,9 @@ a{
     color: white;
     padding-top: 1rem;
 }
+#html{
+    padding-top: 60px;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
